@@ -6,12 +6,12 @@ const registerInformation = {
     private: false,
     cancelMessage: true,
     ownerOnly: false,
-    name: 'ping',
-    aliases: ['Ping2'],
-    description: 'This is a test command',
-    example: ['ping']
+    name: 'spawn',
+    aliases: ['s'],
+    description: 'Go to spawn',
+    example: ['spawn']
 };
 
 Command.register(registerInformation, (chatmsg, args) => {
-    runCommand(`say pong! [${chatmsg.message}]`);
+    runCommand(`tp "${chatmsg.sender.name}" 0 100 0`);
 });
