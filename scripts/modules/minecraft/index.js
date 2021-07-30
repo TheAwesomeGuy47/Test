@@ -1,5 +1,5 @@
 export const config = {
-    commandPrefix: '+'
+    commandPrefix: '-'
 };
 import './lib/commandHandler.js';
 import './misc.js';
