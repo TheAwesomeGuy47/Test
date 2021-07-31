@@ -4,7 +4,7 @@
         "description": "This pack was created by ℕ𝕠𝕚𝕟𝕜𝕚𝕟#5026 on discord and is made for Aquatic Skyblock",
         "name": "Aquatic Skyblock GameTest Pack",
         "uuid": "918f111a-cd35-11eb-b8bc-0242ac130003",
-        "version": [0, 0, 2],
+        "version": [0, 0, 3],
         "min_engine_version": [ 1, 14, 0 ]
     },
     "modules": [
