@@ -6,5 +6,7 @@ World.on('everyTick', () => {
   allPlayers.forEach(player => {
     let playerHealth = player.health.current
     Commands.run(`scoreboard players set ${player} health ${playerHealth}`);
+    const output = findScore({ objective: 'money' }, { entityRequirements: '[type=player]', minimum: 0 });
+    output.compressNum
   });
 })
