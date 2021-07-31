@@ -1,4 +1,4 @@
-import { Commands } from 'Minecraft';
+import { World, Commands } from 'Minecraft';
 import { getPlayers } from './lib/utils/others.js';
 
 World.on('everyTick', () => {
