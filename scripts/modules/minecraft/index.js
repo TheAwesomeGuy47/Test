@@ -15,8 +15,3 @@ const features = [
     '§f- §dFloating Leaderboard - You can display the highest ranked player in a scoreboard using a floating text entity. Check out the function parameter comments for §a\'writeLeaderboard\' §din the file §autils/misc.js §dfor more information on how to get it setup.',
     '§f- §d Useful Utils - I have also added a lot of useful utils. I will add more in the near future!'
 ];
-
-setTickTimeout(() => {
-    runCommand(`tellraw @a {"rawtext":[{"text":"§eGameTest FrameWork API Starter Pack§r\n§bCredit: §rThis pack was made by §anotbeer\n§9Discord: §fnotbeer#9204\n§aXbox Live: §fColoringEmy86\n\n§eFeatures: \n${features.join('\n')}"}]}`);
-}, 100);
-
